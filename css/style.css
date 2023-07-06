@@ -59,7 +59,7 @@ padding-right: 8px;
 #row2{
 height: 80px;
 width: 100%;
-background: #fff;
+background:#fff;
 }
 .header_section{
 
@@ -74,6 +74,7 @@ background: #fff;
     height:60 px;
     margin-top: 10px;
     padding-left: 40px;
+   
    
 }
 .menu{
@@ -95,7 +96,7 @@ background: #fff;
 
     text-decoration: none;
     text-transform: uppercase;
-    color: #455694;
+    color:black;
 }
 .menu ul li i{
 
@@ -105,5 +106,62 @@ background: #fff;
     border-radius: 100%;
     line-height: 30px;
 }
+
+/* Row-2 css End */
+
+/* Row-3 css start */
+#row-3{
+height: 800px;
+width: 100%;
+    background-image: url(../images/calm-water-in-european-city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+
+
+}
+.overlayrow3{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    position: absolute;
+}
+.banner_section{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.banner_content{}
+.banner_content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 200px;
+}
+.banner_content p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.banner_button{}
+.banner_button button{
+    padding: 10px 20px;
+    background:none;
+    border:2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.banner_button button:hover{
+
+    background-color:#455964 ;
+    transition: 1s;
+}
+
 
 /* Row-3 css End */
